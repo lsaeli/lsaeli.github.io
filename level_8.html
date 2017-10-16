@@ -8,18 +8,22 @@
 
 
 <body>
-<form>
-	<marquee behavior="scroll" direction="up" scrollamount="1">STEADYING LASERS. CALCULATING TARGET’S PRESSURE POINTS. FIRING IN…
-	</marquee>
 
-	<br><br>
+	
 
-	<marquee behavior="scroll" direction="up" scrollamount="1">3
-	</marquee>
-		<marquee behavior="scroll" direction="up" scrollamount="1">2
-	</marquee>
-<br><br>
+<p> STEADYING LASERS. <br>
+	<br>CALCULATING TARGET’S PRESSURE POINTS. <br>FIRING IN…
+<span id="countdowntimer">3 </span> Seconds</p>
 
+<script type="text/javascript">
+    var timeleft = 3;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+</script>
 
 
 <a/></li>
