@@ -7,6 +7,14 @@
 
 <META HTTP-EQUIV="refresh" CONTENT="15;URL=exit_2f.html">
 <br><br>
+
+
+<script type="text/javascript">
+alert("WARNING: DOOR LOCK OVERRIDDEN.\nOPENING IN 15 SEC...");
+</script>
+
+
+
 <marquee behavior="scroll" direction="up" scrollamount="230" scrolldelay="400">hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrs<br>iS tThat yOu<br><br>sAF¿T hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrs<br>iS tThat yOu<br><br>sAF¿T hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrs<br>iS tThat yOu<br><br>sAF¿T hElP 
 
 <p>saf? y  hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrsiS tThat yOusAF¿T hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrsiS tThat yOusAF¿T hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrs<br>iS tThat yOusAF¿T hElP 
@@ -14,6 +22,22 @@
 <p>saf? yhElP MEiCaNTmYMiNDisMeRGinWiTHthEIrsiS tThat yOu<br><br>sAF¿T hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrsiS tThat yOu<br><br>sAF¿T hElP MEiCaNTmYMiNDisMeRGinWiTHthEIrs<br>iS tThat yOusAF¿T hElP 
 
 <p>saf? y</p><br></marquee>
+
+
+DOOR UNLOCKING IN
+<span id="countdowntimer">15</span> Seconds</p>
+
+<script type="text/javascript">
+    var timeleft = 15;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+</script>
+
+
 
 <title>
 Complete Exit Code
@@ -42,6 +66,8 @@ function check(form)/*function to check userid & password*/
     window.open("exit_2f.html")
   }
 }
+
+
 </script>
 </body>
 </html>
