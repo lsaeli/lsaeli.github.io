@@ -1,0 +1,53 @@
+
+
+body {
+
+    	background-color: black;
+}
+
+
+h1 {
+ font-size: 60px;
+
+color: white;
+  color: white;
+  float: left;
+  cursor: pointer;
+  font-family: 'Lato';
+   padding-top: 50px;
+    padding-right: 300px;
+        padding-left: 300px;
+   padding-top: 50px;
+
+}
+
+
+
+p {
+ font-size: 18px;
+	line-height: 1.3em;
+	letter-spacing: .02em
+  background-color: black;
+  color: white;
+  float: left;
+  cursor: pointer;
+  font-family: 'Lato';
+
+    padding-right: 300px;
+        padding-left: 300px;
+
+}
+
+
+span:hover {
+	opacity: 0;
+}
+
+.o-hide {
+  opacity: 0;
+  transition: all ease 0.8s;
+}
+
+.o-hide:hover {
+  opacity: 1;
+}
