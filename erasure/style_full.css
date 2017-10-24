@@ -14,10 +14,25 @@ color: white;
   float: left;
   cursor: pointer;
   font-family: 'Lato';
-  padding-top: 50px;
+  padding-top: 20px;
     padding-right: 300px;
         padding-left: 300px;
-    padding-bottom: 5px;
+
+
+}
+
+h6 {
+ font-size: 20px;
+
+color: white;
+  color: white;
+  float: left;
+  cursor: pointer;
+  font-family: 'Lato';
+
+    padding-right: 300px;
+        padding-left: 300px;
+
 
 }
 
@@ -31,13 +46,22 @@ p {
   float: left;
   cursor: pointer;
   font-family: 'Lato';
-   padding-top: 50px;
+  -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    transition: all ease 0.2s;
     padding-right: 300px;
         padding-left: 300px;
     padding-bottom: 300px;
 
 }.blurred span {
  color: white;
+  -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    transition: all ease 0.2s;
 }
 
 .blurred:hover {
