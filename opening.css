@@ -4,7 +4,7 @@ body, html {
 
 
 .header {
-font-family: 'Alice', monospace;
+font-family: 'Vidaloka', monospace;
         padding-left: 650px;
         letter-spacing: .1em
 }
@@ -13,7 +13,7 @@ font-family: 'Alice', monospace;
   width: 800px;
   height: 80px;
   display: flex;
-font-family: 'Alice', cursive;
+  font-family: 'Vidaloka', cursive;
   padding-left: 644px;
   letter-spacing: .1em
   color: white;
@@ -37,7 +37,7 @@ font-family: 'Alice', cursive;
 }
 
 body {
-font-family: 'Alice', monospace;
+font-family: 'Vidaloka', monospace;
         font-size: 15px;
         letter-spacing: .1em
 }
@@ -100,7 +100,7 @@ ul {
    padding:0;
    position:relative;
    /*spacing*/
-   left:140px;
+   left: 153px;
    letter-spacing: .1em
 
 }
@@ -118,7 +118,7 @@ li {
 li a {
   	text-decoration: none;
   	color: black;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Arsenal', sans-serif;
   	text-transform: uppercase;
     transition: all ease 0.3s;
     margin: 0 auto;
