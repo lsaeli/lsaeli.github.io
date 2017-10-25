@@ -1,0 +1,132 @@
+body, html {
+    height: 100%;
+}
+
+
+.header {
+font-family: 'Alice', monospace;
+        padding-left: 650px;
+        letter-spacing: .1em
+}
+
+.header{
+  width: 800px;
+  height: 80px;
+  display: flex;
+font-family: 'Alice', cursive;
+  padding-left: 644px;
+  letter-spacing: .1em
+  color: white;
+    transition: all ease 0.3s;
+}
+
+.header:hover{
+  font-size: 0;
+    transition: all ease 0.3s;
+}
+
+.header:hover:after{
+  content: attr(data-hover);
+  font-size: 20px;
+  transition:.3s;
+  padding-top: 7px;
+    padding-right: 600px;    
+    padding-left: 5px;
+      width: 900px;
+      justify-content: center;
+}
+
+body {
+font-family: 'Alice', monospace;
+        font-size: 15px;
+        letter-spacing: .1em
+}
+
+
+
+.textWithBlurredBg{
+     height: 80%;
+    width: 70%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    transition:.3s;
+    margin: 0 auto;
+  }
+  
+  .textWithBlurredBg img{
+    width:100%;
+    height:100%;
+    transition:.3s;
+    border-radius:4px;
+  }
+  
+  .textWithBlurredBg:hover img{
+    filter:blur(2px) brightness(60%);
+  }
+   
+   /*image text*/
+  .textWithBlurredBg :not(img){
+    position:absolute;
+    z-index:1;
+    top:20%;
+    width:100%;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition:.3s;
+    font-size: 70px;
+
+  }
+  
+  .textWithBlurredBg h3{
+    top:50%
+  }
+  
+  .textWithBlurredBg:hover :not(img){
+    opacity:1;
+  }
+
+
+ul {
+   list-style:none;
+   display:inline-block;
+   margin:0 auto; 
+   clear:left;
+   float:left;
+   list-style:none;
+   padding:0;
+   position:relative;
+   /*spacing*/
+   left:140px;
+   letter-spacing: .1em
+
+}
+
+li {
+  padding-left: 100px;
+  /*padding=space between words*/
+  margin:0 auto; 
+  font-size: 12px;
+      display: inline;
+
+
+}
+
+li a {
+  	text-decoration: none;
+  	color: black;
+	font-family: 'Poiret One', cursive;
+  	text-transform: uppercase;
+    transition: all ease 0.3s;
+    margin: 0 auto;
+
+}
+
+li a:hover {
+  color: #d39aed;
+      margin: 0 auto;
+
+}
