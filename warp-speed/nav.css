@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+      background-color: black;
+}
+
+h6 {
+  text-align: left;
+  color:#fff;
+  padding-top:70px;
+  padding-left: 59.98%;
+  padding-right: 9%;
+  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+}
+
+* { color:#fff; text-decoration: none;}
+
+.prompt  {
+  text-align: left;
+  color:#fff;
+  font-family: 'Exo', sans-serif;
+  padding-left: 41%;
+  padding-right: 10%;
+}
+
+
+
+p {
+   text-align: left;
+  color:#fff;
+  padding-top:10px;
+  padding-left: 39%;
+  padding-right: 7%;
+  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+}
+
+p a:hover {
+    color: #8edee2;
+}
+
+
+#space-cats {
+  text-align: left;
+  color:#fff;
+  padding-top:10px;
+  padding-right: 200px;
+  padding-left: 550px;
+  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+}
+
+
+.text {
+   text-decoration: none;
+  transition: all ease 3s;
+  color: white;
+    padding-left: 58.8%;
+  letter-spacing: .1em;
+  font-family: 'Exo', sans-serif;
+}
+
+
+ul {
+   list-style:none;
+}
+
+strong { 
+    font-weight: black;
+}
+
+
+li {
+  text-decoration: none;
+  transition: all ease 3s;
+  color: white;
+    padding-left: 58.8%;
+  letter-spacing: .1em;
+  font-family: 'Exo', sans-serif;
+}
+
+a:hover {
+  text-decoration:none;
+} 
+a:hover span {
+  text-decoration:underline;
+}  
+
+
+li a:hover {
+  color: #8edee2;
+
+}
+
+img { 
+    position: absolute; 
+    top:10%;
+    width:40%;
+    padding-top: 40px; 
+    padding-left: 200px;
+}

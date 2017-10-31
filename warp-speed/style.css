@@ -1,0 +1,152 @@
+body, html {
+    height: 100%;
+      background-color: black;
+}
+
+h1 {
+  text-align: left;
+  color:#fff;
+  padding-top:75px;
+  padding-right: 200px;
+  padding-left: 300px;
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
+
+}
+
+p {
+  text-align: left;
+  color:#fff;
+  padding-top:97px;
+  padding-left: 60%;
+  padding-right: 7%;
+  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+
+}
+
+* { color:#fff; text-decoration: none;}
+/*
+		font-family: 'exo', light, sans-serif;*/
+
+
+
+.question 	{
+	 text-align: left;
+  color:#fff;
+  padding-top:97px;
+  padding-left: 39%;
+  padding-right: 7%;
+  font-family: 'Exo', sans-serif;
+}
+
+ul {
+	 list-style:none;
+}
+
+
+#special:hover {
+
+  background: -webkit-linear-gradient(#eee, #ffbd3f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#take-off {
+	 text-align: left;
+  color:#fff;
+  padding-top:97px;
+  padding-right: 32%;
+  padding-left: 30%;
+  font-family: 'Exo', sans-serif;
+}
+
+.nav li {
+	text-decoration: none;
+	transition: all ease 3s;
+	color: white;
+  	font-size: 25px;
+ 	letter-spacing: .1em;
+ 	padding-left: 260px;
+ 	font-family: 'Exo', sans-serif;
+}
+
+.nav-special li {
+	text-decoration: none;
+	transition: all ease 3s;
+	color: white;
+  	font-size: 18px;
+ 	padding-left: 385px;
+ 	font-family: 'Exo', sans-serif;
+}
+
+.video-wrapper {
+	 position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+li a:hover {
+  color: #8edee2;
+}
+
+h3 {
+  text-align: left;
+  color:#fff;
+  padding-top:75px;
+  padding-right: 200px;
+  padding-left: 300px;
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
+
+}
+
+.sun 	{
+   text-align: left;
+  color:#fff;
+  padding-top:75px;
+  padding-right: 200px;
+  padding-left: 300px;
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
+}
+
+btn.onclick = function() {
+  videoBox.setAttribute('class', 'showing');
+}
+
+videoBox.onclick = function() {
+  videoBox.setAttribute('class', 'hidden');
+};
+
+video.onclick = function() {
+  video.play();
+};
+
+video.onclick = function(e) {
+  e.stopPropagation();
+  video.play();
+};
+
+
+.button {
+    border: none;
+    color: cyan;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+img { 
+    position: absolute; 
+        top:10%;
+    width:40%;
+    padding-top: 40px; 
+    padding-left: 200px;
+}
