@@ -23,8 +23,6 @@ h6 {
   padding-right: 10%;
 }
 
-
-
 p {
    text-align: left;
   color:#fff;
@@ -67,6 +65,16 @@ ul {
 
 strong { 
     font-weight: black;
+}
+
+h1 {
+  text-align: left;
+  color:#fff;
+  padding-top:170px;
+  padding-left: 29.98%;
+  padding-right: 9%;
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
 }
 
 
