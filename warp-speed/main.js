@@ -20,3 +20,32 @@ myFunction = function() {
     
     document.getElementById("here").innerHTML = first+" "+second;
 }
+
+
+
+var click = document.querySelector("h1");
+click.addEventListener("click", click);
+
+function click () {
+    var header = document.querySelector("output h1");
+    header.innerHTML= "helllo <strong> stranger>";
+    var trigger =document.querySelector("output 1h strong")
+    console.log ("it works.");
+}
+
+function addImage() {
+    var output = document.querySelector(".output")
+        console.log ("output")
+    var ship document.createElement("img")
+        console.log ("picture")
+    ship.src = "./images/ship.jpg";
+    output.appendChild (ship)
+    ship.addEventListener("click")
+
+    ship.addEventListener("click", function () {
+document.querySelector("#ship").remove
+    }
+    );
+
+}
+

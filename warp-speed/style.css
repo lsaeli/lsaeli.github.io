@@ -1,3 +1,4 @@
+
 body, html {
     height: 100%;
       background-color: black;
@@ -11,7 +12,6 @@ h1 {
   padding-left: 300px;
   font-size: 40px;
   font-family: 'Exo', sans-serif;
-
 }
 
 p {
@@ -22,17 +22,16 @@ p {
   padding-right: 7%;
   font-size: 20px;
   font-family: 'Exo', sans-serif;
-
 }
 
-* { color:#fff; text-decoration: none;}
+* { color:#fff; text-decoration: none;
+font-family: 'Exo', sans-serif;}
 /*
-		font-family: 'exo', light, sans-serif;*/
+    font-family: 'exo', light, sans-serif;*/
 
 
-
-.question 	{
-	 text-align: left;
+.question   {
+   text-align: left;
   color:#fff;
   padding-top:97px;
   padding-left: 39%;
@@ -41,7 +40,7 @@ p {
 }
 
 ul {
-	 list-style:none;
+   list-style:none;
 }
 
 
@@ -54,7 +53,16 @@ ul {
 
 
 #take-off {
-	 text-align: left;
+   text-align: left;
+  color:#fff;
+  padding-top:97px;
+  padding-right: 32%;
+  padding-left: 30%;
+  font-family: 'Exo', sans-serif;
+}
+
+p#special-take-off {
+   text-align: left;
   color:#fff;
   padding-top:97px;
   padding-right: 32%;
@@ -63,26 +71,37 @@ ul {
 }
 
 .nav li {
-	text-decoration: none;
-	transition: all ease 3s;
-	color: white;
-  	font-size: 25px;
- 	letter-spacing: .1em;
- 	padding-left: 260px;
- 	font-family: 'Exo', sans-serif;
+  text-decoration: none;
+  transition: all ease 3s;
+  color: white;
+    font-size: 25px;
+  letter-spacing: .1em;
+  padding-left: 260px;
+  font-family: 'Exo', sans-serif;
 }
 
-.nav-special li {
-	text-decoration: none;
-	transition: all ease 3s;
-	color: white;
-  	font-size: 18px;
- 	padding-left: 385px;
- 	font-family: 'Exo', sans-serif;
+div.nav-special li {
+  text-decoration: none;
+  transition: all ease 3s;
+  color: white;
+  font-size: 18px;
+  padding-left: 28%;
+  font-family: 'Exo', sans-serif;
 }
+
+.nav-special-takeoff {
+  text-decoration: none;
+  transition: all ease 3s;
+  color: white;
+  font-size: 18px;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  padding-left: 29%;
+}
+
 
 .video-wrapper {
-	 position: absolute;
+   position: absolute;
     margin: auto;
     top: 50%;
     left: 50%;
@@ -105,7 +124,7 @@ h3 {
 
 }
 
-.sun 	{
+.sun  {
    text-align: left;
   color:#fff;
   padding-top:75px;
@@ -132,21 +151,3 @@ video.onclick = function(e) {
   video.play();
 };
 
-
-.button {
-    border: none;
-    color: cyan;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-img { 
-    position: absolute; 
-        top:10%;
-    width:40%;
-    padding-top: 40px; 
-    padding-left: 200px;
-}
