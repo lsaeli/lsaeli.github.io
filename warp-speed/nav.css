@@ -13,6 +13,25 @@ h6 {
   font-family: 'Exo', sans-serif;
 }
 
+
+.madlib
+  {
+    text-align: left;
+  color:#fff;
+  font-family: 'Exo', sans-serif;
+  padding-left: 41%;
+  padding-right;
+  }
+
+* {
+  color: #fff;
+    text-decoration: none;
+    padding-left: 10%;
+        padding-right: 10%;
+    font-family: 'Exo', sans-serif;
+    padding-top: 30px;
+}
+
 * { color:#fff; text-decoration: none;}
 
 .prompt  {
