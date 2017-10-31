@@ -5,76 +5,74 @@
     <link rel="stylesheet" type="text/css" href="nav.css">
     <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
     <meta name="view" content="width=device-width, initial-scale=1">
-</head>
+    <meta name="keywords" content="">
+  <meta name="Generator" content="HTMLpad">
 
+<SCRIPT LANGUAGE="javascript">
+  function Message(){if (!confirm
+    ("Ready to play the madlib?"))
+    history.go(-1);return " "}
+    document.writeln(Message())
 
-<body onclick="begin();">
-    <div id="remove-this">
-        <h1>Click to play Madlib!</h1>
-    </div>
-    <div id="content">
-        <div id="finaltext">
-    </div>
+</script>
+<script type="text/javascript">
+    var adj1=prompt("Please enter an adjective");
+    var noun1=prompt("Please enter a noun:");
+    var adj2=prompt("Please enter another adjective:");
+    var plnoun1=prompt("Please enter a plural noun:");
+    var adv1=prompt("Please enter an adverb:");
+    var ingverb=prompt("Please enter a verb ending in ing:");
+    var word1=prompt("Please enter a silly plural noun:");
+    var adj3=prompt("lease enter an adjective:");
+    var nounpl1=prompt("Please enter a plural noun:");
+</script>
+
+<p id="madlib">When we look up into the sky on a/an <SCRIPT Language=JavaScript>
+    document.write(adj1);</script>
+
+     summer night, we see millions of tiny spots of light. Each one represents a/an 
+<SCRIPT Language=JavaScript>
+    document.write(noun1);</script>
+
+     which is in the center of a/an
+<SCRIPT Language=JavaScript>
+    document.write(adj2);</script>
+
+     solar system with dozens of revolving 
+<SCRIPT Language=JavaScript>
+    document.write(plnoun1);
+</script> around a distant sun. Sometimes these suns expand and.
+<SCRIPT Language=JavaScript>
+    document.write(adv1);</script>
+    begin
+
+<SCRIPT Language=JavaScript>
+    document.write(ingverb);</script>
+
+    their neighbors. Soon they will become so big, they will turn into... 
+<SCRIPT Language=JavaScript>
+    document.write(word1);</script>
+
+    Eventually they subside and become
+<SCRIPT Language=JavaScript>
+    document.write(adj3);</script>  
+
+    giants or perhaps black <SCRIPT Language=JavaScript>
+    document.write(nounpl1);
+</script>
+</p>
+<FORM>
+</form>
+
+      
+</script>
 </body>
 
-
-<script>
-    var adj1, noun1, adj2, plnoun1, adv1, ingverb, word1, adj3, nounpl1, content, element, node;
-    var main = document.getElementById("content");
-    function begin() {
-
-        document.getElementById("remove-this").style.display = "none";
-
-        adj1 = prompt("Please enter an adjective:");
-        while (adj1 == null || adj1 == undefined) {
-            adj1 = prompt("Please enter a adjective:");
-        }
-
-        noun1 = prompt("Please enter a noun:");
-        while (noun1 == null || noun1 == undefined) {
-            noun1 = prompt("Please enter a noun:");
-        }
-
-        adj2 = prompt("Please enter an adjective:");
-        while (adj2 == null || adj2 == undefined) {
-            adj2 = prompt("Please enter another adjective:");
-        }
-
-        plnoun1 = prompt("Please enter a plural noun:");
-        while (plnoun1 == null || plnoun1 == undefined) {
-            plnoun1 = prompt("Please enter a plural noun:");
-        }
-        adv1 = prompt("Please enter an adverb:");
-        while (adv1 == null || adv1 == undefined) {
-            adv1 = prompt("Please enter an adverb:");
-        }
-        ingverb = prompt("Please enter a verb ending in ing:");
-        while (ingverb == null || ingverb == undefined) {
-            ingverb = prompt("Please enter verb ending in ing:");
-        }
-
-        word1 = prompt("Please enter a silly plural verb:");
-        while (word1 == null || word1 == undefined) {
-            word1 = prompt("Please enter a silly plural verb:");
-        }
-       adj3 = prompt("Please enter an adjective:");
-        while (adj3 == null || adj3 == undefined) {
-            adj3 = prompt("Please enter an adjective:");
-        }
-              nounpl1 = prompt("Please enter an plural noun:");
-        while (nounpl1 == null || nounpl1 == undefined) {
-            nounpl1 = prompt("Please enter an plural noun:");
-        }
-
-        var madlibString = "When we look up into the sky on a/an summer " + adj1 + " night, we see millions of tiny spots of light. Each one represents a/an  " + noun1 + " which is the center of a/an " + adj2 + " solar system with dozens of revolving  " + plnoun1 + " around a distant sun. Sometimes these suns expand and " + adv1 + " begin  " + ingverb + " their neighbors. Soon they will become so big, they will turn into... " + word1 + " Eventually they subside and become  " + adj3 + " giants or perhaps black " + nounpl1 + "."
-        document.getElementById("finaltext").innerHTML = madlibString;
-    }
-</script>
 
 <br><br>
 <ul>
-<li><a href="entertainment.html" target=_"blank">Return to Entertainment Menu<a/></li>
+<li id="entertainment"><a href="entertainment.html" target=_"blank">Return to <br>Entertainment Menu<a/></li>
 </ul>
-</body>
+
 
 </html>

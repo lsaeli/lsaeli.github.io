@@ -9,9 +9,34 @@ h1 {
   color:#fff;
   padding-top:75px;
   padding-right: 200px;
+  padding-left: 20.5%;
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
+}
+
+#travel {
+  text-align: left;
+  color:#fff;
+  padding-top:97px;
+  padding-left: 20%;
+  padding-right: 7%;
+  font-size: 30px;
+  font-family: 'Exo', sans-serif;
+}
+
+li a:hover {
+  color: #8edee2;
+}
+
+h3 {
+  text-align: left;
+  color:#fff;
+  padding-top:75px;
+  padding-right: 200px;
   padding-left: 300px;
   font-size: 40px;
   font-family: 'Exo', sans-serif;
+
 }
 
 p {
@@ -57,7 +82,7 @@ ul {
   color:#fff;
   padding-top:97px;
   padding-right: 32%;
-  padding-left: 30%;
+  padding-left: 29.5%;
   font-family: 'Exo', sans-serif;
 }
 
@@ -76,7 +101,7 @@ p#special-take-off {
   color: white;
     font-size: 25px;
   letter-spacing: .1em;
-  padding-left: 260px;
+  padding-left: 18%;
   font-family: 'Exo', sans-serif;
 }
 
@@ -85,7 +110,7 @@ div.nav-special li {
   transition: all ease 3s;
   color: white;
   font-size: 18px;
-  padding-left: 28%;
+  padding-left: 27.5%;
   font-family: 'Exo', sans-serif;
 }
 
@@ -108,21 +133,6 @@ div.nav-special li {
     transform: translate(-50%, -50%);
 }
 
-
-li a:hover {
-  color: #8edee2;
-}
-
-h3 {
-  text-align: left;
-  color:#fff;
-  padding-top:75px;
-  padding-right: 200px;
-  padding-left: 300px;
-  font-size: 40px;
-  font-family: 'Exo', sans-serif;
-
-}
 
 .sun  {
    text-align: left;

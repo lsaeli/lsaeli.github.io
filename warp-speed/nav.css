@@ -3,16 +3,24 @@ body, html {
       background-color: black;
 }
 
-h6 {
-  text-align: left;
-  color:#fff;
-padding-top: 5.4%;
-  padding-left: 59.98%;
-  padding-right: 1%;
-  font-size: 20px;
-  font-family: 'Exo', sans-serif;
+#madlib {
+    border: none;
+    color: white;
+    padding-left: 31%;    
+    padding-top: 10%;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
 }
 
+
+#entertainment {
+  text-align: left;
+  color:#fff;
+  font-family: 'Exo', sans-serif;
+  padding-left: 27%;
+}
 
 .madlib
   {
@@ -27,12 +35,12 @@ padding-top: 5.4%;
   color: #fff;
     text-decoration: none;
     padding-left: 10%;
-        padding-right: 10%;
+    padding-right: 10%;
     font-family: 'Exo', sans-serif;
     padding-top: 5px;
 }
 
-* { color:#fff; text-decoration: none;}
+
 
 .prompt  {
   text-align: left;
@@ -40,7 +48,9 @@ padding-top: 5.4%;
   font-family: 'Exo', sans-serif;
     padding-left: 44%;
   padding-right: 10%;
+  font-size: 16px;
 }
+
 
 .special-prompt  {
   text-align: left;
@@ -50,6 +60,26 @@ padding-top: 5.4%;
   padding-right: 10%;
 }
 
+#continue {
+   text-align: left;
+  color:#fff;
+  font-family: 'Exo', sans-serif;
+padding-left: 14.5%;
+  padding-right: 30%;
+}
+
+#f-question {
+   text-align: left;
+   color:#fff;
+  font-family: 'Exo', sans-serif;
+    padding-left: 20.1%;
+    padding-right: 7%;
+    font-size: 18px;
+}
+
+#final-q {
+    padding-left: 4%;
+}
 
 li#special-question  {
   text-align: left;
@@ -106,13 +136,39 @@ strong {
 h1 {
   text-align: left;
   color:#fff;
-  padding-top:170px;
+  padding-top:120px;
   padding-left: 29.98%;
   padding-right: 9%;
   font-size: 40px;
   font-family: 'Exo', sans-serif;
 }
 
+h2 {
+ text-align: left;
+  color:#fff;
+    padding-left: 23.6%;
+  padding-left: 23%;
+  padding-right: 9%;
+  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+}
+
+h6 {
+  text-align: left;
+  color:#fff;
+  padding-top: 4.9%;
+  padding-left: 20%;
+  padding-right: 30%;
+  font-size: 16px;
+  font-family: 'Exo', sans-serif;
+}
+
+#travel-guide{
+    padding-top: 6.3%;
+    padding-left: 60%;
+    padding-right: 7%;
+        font-size: 18px;
+}
 
 li {
 text-decoration: none;

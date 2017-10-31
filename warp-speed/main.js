@@ -49,3 +49,25 @@ document.querySelector("#ship").remove
 
 }
 
+
+ function init(){
+        getName();
+        //and other scripts that execute onload event
+    }
+    function getName(){
+        var nameForm=document.frm;
+        var name=prompt("Please sign the travel waiver by providing your electronic signature.\n\nEnter your name.","");//save inputted prompt value to var name..
+        if(name != null && name!=""){
+            alert("Welcome aboard "+ name + "!");
+            nameForm.fname.value=name;
+        }else{
+            alert("Please sign the waiver. We cannot take flight until all passengers do so.");
+            getName();
+        }
+    }
+  </script>
+
+
+ </HEAD>
+ <BODY onload="init()">
+    </form>
