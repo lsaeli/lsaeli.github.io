@@ -21,7 +21,7 @@ if (sign.toLowerCase() == "taurus") {
   alert("There have been many stresses in your life as of late.You've faced many tough battles and have been seeking retreat from it all. Although it seems like a good idea to take a vacation, it should be put off as Mercury is in retrograde and it only spells disaster for travel.");
 }
 if (sign.toLowerCase() == "virgo") {
-  alert("There's a difficult situation that's been stressing you out. Although it's desirable to forget, it's better to have the memory and move on, despite how tough it is. Remmeber you have control! Although it seems like a good time to take a vacation to get away from it all, it's not recommended as Mercury is in retrograde and it only spells disaster for travel.");
+  alert("There's a difficult situation that's been stressing you out. Although it's desirable to forget, it's better to have the memory and move on, despite how tough it is. Remember you have control! Although it seems like a good time to take a vacation to get away from it all, it's not recommended as Mercury is in retrograde and it only spells disaster for travel.");
 }
 if (sign.toLowerCase() == "capricorn") {
   alert("Things have changed. You aren't seeing the world the way you used to. Be proud of this shift. You've grown so much already. Be proud of yourself! Although it seems nice to get away from home and explore someplace new, it's not recommended as Mercury is in retrograde and it only spells disaster for travel.");
