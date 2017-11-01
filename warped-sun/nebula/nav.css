@@ -20,6 +20,10 @@ body, html {
 }
 
 
+#p-info:hover {
+  color: #e2ff72;
+}
+
 #corona:hover {
   color: #e2ff72;
 }
