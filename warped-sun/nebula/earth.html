@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+
+	<link rel="stylesheet" type="text/css" href="nav.css">
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+
+<img src="./images/earth.gif" loop=infinite>
+<meta name="view" content="width=device-width, initial-scale=1">
+
+<div>
+<h6 id="travel-guide">For a few moments, the travel guide doesn't appear.<br><br>Earth hasn't been the same. The sun will to swallow earth in exactly <span id="countdowntimer">1800</span> seconds.
+<script type="text/javascript">
+    var timeleft = 1800;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1800);
+
+</script><br><br>Our flight will last a approximately 20 minutes, leaving only 10 minutes to <br>see Earth's final end.</h6>
+</div>
+ 
+<nav>
+  <div class="special-prompt">
+  <p>Do you really want to go there?</p>
+  </div>
+<ul>
+ <li id="special-question"><a href="earth2.html" target=_"blank">Yes
+ <li id="special-question"><a href="index.html" target=_"blank">No<a/>
+</ul>
+</div>
+
+
+</nav>
+
+
+
+
+</body>
+</html>

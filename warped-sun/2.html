@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+
+<link rel="stylesheet" type="text/css" href="style.css">  
+  <script type="text/javascript">
+	function init(){
+		getName();
+		//and other scripts that execute onload event
+	}
+	function getName(){
+		var nameForm=document.frm;
+		var name=prompt("Please sign the travel waiver by providing your electronic signature.\n\nEnter your name.","");//save inputted prompt value to var name..
+		if(name != null && name!=""){
+			alert("Welcome aboard "+ name + "!");
+			nameForm.fname.value=name;
+		}else{
+			alert("Please sign the waiver. We cannot take flight until all passengers do so.");
+			getName();
+		}
+	}
+  </script>
+
+
+ </HEAD>
+ <BODY onload="init()">
+	</form>
+
+
+	<p id="take-off">We will take off momentarily. Our flight attendants will demonstrate how to fasten your fasten your seatbelts.<br><br> Once we take off, we will serve complimentary soft drinks, juice, and coffee. Alcoholic beverages and Diamond-rating non-alcoholic beverages may be purchased with a simple mind swipe. <br><br> You can now connect your mind to the onboard Collective. 
+		Please fasten your seat belt, raise your seatback and tray table to the full upright and locked position. Ensure that all carry-on items are stowed completely under the seat, or in the overhead bins above, and that your feet are clear.
+		Thank you for choosing Milieux Stargate. Welcome aboard.
+		<br><br>
+		Please select your onboard entertainment.
+	</p>
+
+
+<nav>
+  <div class="nav-special">
+  	<ul>
+<br>
+<li id="center"><a href="horoscopes.html" target=_"blank">Horoscopes<a/></li>
+ <li><a href="madlib.html" target=_"blank">Madlib<a/></li>
+ <li><a href="cats.html" target=_"blank">Space Cats<a/>
+ </li>
+</ul>
+</nav>
+</div>
+
+ </BODY>
+</HTML>
