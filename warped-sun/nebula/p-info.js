@@ -4,5 +4,5 @@ document.getElementById('p-info').addEventListener('click', function() {
     alert("Construction of the greatest planet ever began in AF 3942 (anno Feline).");
 }, false);
 document.getElementById('p-info').addEventListener('click', function() {
-    alert("It's made of yarn, blankets, slippers, giant boxes and catnip. This planet's construction was a generous contribution by the CLU (Cat Lovers Universal), where all speciesa and createures celebrate the joys of cats!");
+    alert("It's made of yarn, blankets, slippers, giant boxes and catnip. This planet's construction was a generous contribution by the CLU (Cat Lovers Universal), where all species and creatures celebrate the joys of cats!");
 }, false);
