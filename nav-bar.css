@@ -4,7 +4,7 @@ body, html {
 
 
 .header {
-font-family: 'Alice', monospace;
+font-family: 'Arsenal', "arial" sans-serif;
         padding-left: 650px;
         letter-spacing: .1em
 }
@@ -13,7 +13,7 @@ font-family: 'Alice', monospace;
   width: 800px;
   height: 80px;
   display: flex;
-font-family: 'Alice', cursive;
+  font-family: 'Arsenal', "arial" sans-serif;
   padding-left: 647px;
   letter-spacing: .1em
   color: white;
@@ -36,8 +36,13 @@ font-family: 'Alice', cursive;
       justify-content: center;
 }
 
+.final {
+    float: right;
+     display:block;
+}
+
 body {
-font-family: 'Alice', monospace;
+  font-family: 'Arsenal', "arial" sans-serif;
         font-size: 15px;
         letter-spacing: .1em
 }
@@ -73,9 +78,9 @@ li {
 li a {
   text-decoration: none;
   color: black;
-font-family: 'Poiret One', cursive;
-  text-transform: uppercase;
-    transition: all ease 0.3s;
+  font-family: 'Arsenal', "arial" sans-serif;
+  line-height: 18px;
+  transition: all ease 0.3s;
 
 }
 

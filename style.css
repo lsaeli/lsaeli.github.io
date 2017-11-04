@@ -4,7 +4,7 @@ body, html {
 
 
 .header {
-font-family: 'Vidaloka', monospace;
+font-family: 'Vidaloka','georgia', serif;
         padding-left: 650px;
         letter-spacing: .1em
 }
@@ -13,7 +13,7 @@ font-family: 'Vidaloka', monospace;
   width: 800px;
   height: 80px;
   display: flex;
-  font-family: 'Vidaloka', cursive;
+  font-family: 'Vidaloka','georgia', cursive;
   padding-left: 644px;
   letter-spacing: .1em
   color: white;
@@ -37,7 +37,7 @@ font-family: 'Vidaloka', monospace;
 }
 
 body {
-font-family: 'Vidaloka', monospace;
+font-family: 'Vidaloka', 'georgia', monospace;
         font-size: 15px;
         letter-spacing: .1em
 }
@@ -110,19 +110,18 @@ li {
   /*padding=space between words*/
   margin:0 auto; 
   font-size: 12px;
-      display: inline;
+  display: inline;
 
 
 }
 
 li a {
-  	text-decoration: none;
-  	color: black;
-	font-family: 'Arsenal', sans-serif;
-  	text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: 'Arsenal', sans-serif;
+    text-transform: uppercase;
     transition: all ease 0.3s;
     margin: 0 auto;
-
 }
 
 li a:hover {
