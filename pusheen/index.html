@@ -6,29 +6,26 @@
 <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./style.css">
 <script type="text/javascript" src="./main.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
 <body>
 <div class="header"
-    	data-hover="An adorable cartoon kitty!">
+    	data-hover="Internet cats">
      	<h4 style="font-size:1vw">
-		<h4>Pusheen</h4>
+		<h4>Cat Worship</h4>
 </div>
 
-<div class="box" id="fixed">
-		<p>Cat worship is not exclusive to the internet. <br>
-	</p>
-	</div>
-
-<div id='pusheen'>
+<div>
+  <button onclick="show_image('left')" style= "margin-left: 12%">&lt; </button>
+  <button onclick="show_image('right')">&gt;</button>
 </div>
 
-<input type="button" value="More Pusheen!" onClick="updateCats()" style="margin-left: 35%" >
-
-<div id="image-format" style="background-image: url(&quot;http://78.media.tumblr.com/fcf9dd8ef268587c00e18fd41fed708c/tumblr_orlgxzDlMt1qhy6c9o1_500.gif&quot;);">
+<div>
+  <img id="main">
 </div>
 
-<script type="text/javascript">	
+
+<script type="text/javascript">
 var pusheens =
 ["http://78.media.tumblr.com/e988477ba6c7bc54753e2d90bd0c562e/tumblr_oxbgebN7Wh1qhy6c9o1_500.gif",
 "http://78.media.tumblr.com/dd5e8befeeb5a338aef52722d780009c/tumblr_owum6vsKMa1qhy6c9o1_500.gif",
@@ -69,17 +66,50 @@ var pusheens =
 "http://78.media.tumblr.com/tumblr_mdv6yo02p01qhy6c9o2_250.gif",
 ]
 
- var i = 0
-  function updateCats(){
+var index = 0;
 
-      i = i + 1;
-      console.log(i)
-      var url = 'url(' + pusheens[i] + ')';
-
-  document.getElementById('image-format').style.backgroundImage=url;
-
+var image = document.getElementById("main");
+image.src = pusheens[0];
+function show_image(direction)
+{
+  if (direction == "left")
+  {
+    index--;
   }
+  else
+  {
+    index++;
+    index %= pusheens.length;
+  }
+  
+  if (index < 0)
+  {
+    index = pusheens.length - 1;
+  }
+  
+  image.src = pusheens[index];
+}
 </script>
+
+
+<div class="box">
+		<p>Cat worship is not exclusive to the internet. <br><br>Before the dawn of Tumblr, LoLcat, and dank cat memes, the following cultures and religions celebrated cats:	</p>
+		<ul><li><br>Ancient Greeks<br>
+		Ancient Nubians<br>
+		Ancient Egyptians<br>
+		Ancient Assyrians<br>
+		Indians<br>
+		Islamic peoples<br>
+		Christians<br>
+		Chinese<br>
+		Scandainavians<br>
+		Olmecs<br>
+		Mayans<br>
+		Brazilians<br><br>
+		These are 12 groups that had either a mythological, spiritual or religious connection with cats. 
+		</li>
+		</ul>
+</div>
 
 
 

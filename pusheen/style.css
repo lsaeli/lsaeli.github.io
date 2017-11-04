@@ -2,6 +2,12 @@ body {
 	background-color: #faffc1: 
 }
 
+img#main {
+	padding-left: 12%;
+	float: left;
+	padding-top: 3%;
+}
+
 
 #image-format {
 background-image: url('http://78.media.tumblr.com/e988477ba6c7bc54753e2d90bd0c562e/tumblr_oxbgebN7Wh1qhy6c9o1_500.gif');
@@ -22,7 +28,7 @@ h4{
 letter-spacing: .1em;
 transition: all ease 0.3s;
 font-family: 'Rancho', cursive;
-padding-left: 35%;
+padding-left: 24.5%;
 font-size: 35px;
 color: saddlebrown
 }
@@ -36,13 +42,31 @@ color: saddlebrown
   content: attr(data-hover);
   font-size: 20px;
   transition:.5s; 
-  padding-left: 35%;
+  padding-left: 27.5%;
   padding-bottom: 8%;
   font-family: 'Rancho', cursive;
 }
 
 p {
-font-family: 'Indie Flower', cursive;
-padding-left: 5%;
-padding-right: 70%;
+font-family: 'Varela Round', sans-serif;
+float: right;
+padding-top: .5%;
+padding-left: 2%;
+padding-right: 33%;
+clear: both;	
+overflow: hidden;
+display: inline;
+position: absolute;
+}
+
+li {
+font-family: 'Varela Round', sans-serif;
+float: right;
+padding-top: 15%;
+padding-right: 33%;
+padding-left: 2%;
+clear: both;	
+overflow: hidden;
+display: inline;
+position: absolute;
 }
