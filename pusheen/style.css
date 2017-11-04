@@ -13,18 +13,17 @@ margin-left: 35%;
 }
 
 
-h1:hover {
+h4:hover {
 color: thistle;
 }
 
 
-h1{
-display: flex;
+h4{
 letter-spacing: .1em;
 transition: all ease 0.3s;
 font-family: 'Rancho', cursive;
 padding-left: 35%;
-font-size: 40px;
+font-size: 35px;
 color: saddlebrown
 }
 
@@ -39,5 +38,11 @@ color: saddlebrown
   transition:.5s; 
   padding-left: 35%;
   padding-bottom: 8%;
-    font-family: 'Rancho', cursive;
+  font-family: 'Rancho', cursive;
+}
+
+p {
+font-family: 'Indie Flower', cursive;
+padding-left: 5%;
+padding-right: 70%;
 }
