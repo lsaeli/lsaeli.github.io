@@ -2,8 +2,8 @@ body {
 	background-color: #faffc1: 
 }
 
-#image-format {
 
+#image-format {
 background-image: url('http://78.media.tumblr.com/e988477ba6c7bc54753e2d90bd0c562e/tumblr_oxbgebN7Wh1qhy6c9o1_500.gif');
 background-repeat: no-repeat;
 text-align: center;
@@ -26,4 +26,18 @@ font-family: 'Rancho', cursive;
 padding-left: 35%;
 font-size: 40px;
 color: saddlebrown
+}
+
+
+.header:hover{
+  transition: all ease 0.3s;
+}
+
+.header:hover:after{
+  content: attr(data-hover);
+  font-size: 20px;
+  transition:.5s; 
+  padding-left: 35%;
+  padding-bottom: 8%;
+    font-family: 'Rancho', cursive;
 }
