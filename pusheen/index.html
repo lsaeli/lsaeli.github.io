@@ -5,105 +5,59 @@
 <meta charset="utf-8"/>
 <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./style.css">
-<script type="text/javascript" src="./main.js"></script>
+
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+<title>Cat worship before the Internet</title>
+
+
+
+ <div class="container">
+      <div id="date"></div>
+      <div id="display"></div>
+      <div id="content">
+        <p id="fact">"the people who are crazy enough to think they can change the world are the ones who do." <br/>- Steve Jobs</p>
+      </div>
+    </div>
+<div id="b-nav">
+ <button id="gen" onclick="genFact()">New Fact</button>
+    </div>
+
+
+
 
 <body>
 <div class="header"
-    	data-hover="Internet cats">
+    	data-hover="From ancient to modern">
      	<h4 style="font-size:1vw">
 		<h4>Cat Worship</h4>
 </div>
+
+<p id="slideshow">Here are 36 pictures of cats.</p>
 
 <div>
   <button onclick="show_image('left')" style= "margin-left: 12%">&lt; </button>
   <button onclick="show_image('right')">&gt;</button>
 </div>
 
+
 <div>
   <img id="main">
 </div>
 
-
-<script type="text/javascript">
-var pusheens =
-["http://78.media.tumblr.com/e988477ba6c7bc54753e2d90bd0c562e/tumblr_oxbgebN7Wh1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/dd5e8befeeb5a338aef52722d780009c/tumblr_owum6vsKMa1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/772768d1dc4b7323e8b832c332376db7/tumblr_owum4iIfQ51qhy6c9o1_500.gif", 
-"http://78.media.tumblr.com/7209d1a872ef99567e145e60ccb5a016/tumblr_owad86l5us1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/7b9ceec146cf00ef7980781d5cf346dd/tumblr_ovk1vvtE7p1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/1f528d84456e15181b0400d78b2a7aec/tumblr_ov25zdTv0L1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/ff9287842f26cd9993b8151736992244/tumblr_osj6r9gFH21qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/fcf9dd8ef268587c00e18fd41fed708c/tumblr_orlgxzDlMt1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/569b920dbdc5b91b206632e91098d086/tumblr_oqo9xrHXJO1qhy6c9o1_500.png",
-"http://78.media.tumblr.com/548cfa1622853c30207245c3214df098/tumblr_oq7r3quYsh1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/2c05bccd7e1c9353966e4095dc5caf1b/tumblr_ootmmjLVYj1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/835d88c88c778fa6b927c14e36505ab6/tumblr_omxp1l6ezb1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/1db77599ef5c1880983d57cd782eaac2/tumblr_oldo70fNxQ1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/894891ecaa1a9fdba40fb95440c60d6c/tumblr_oilmp1MzxB1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/defa6e14a8f10ed0608bc6d7e20690b8/tumblr_oiihuddp6O1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/6c7c8e8f0d4c1d269b3f6b7dde075076/tumblr_o8zbqmYN751qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/ec8bb434b97ed2e02a56579ca1606a53/tumblr_o09d7vVOI01qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/bc243c440636ef8217ae784d14e01444/tumblr_nsktwmmPYl1qhy6c9o2_r1_500.gif",
-"http://78.media.tumblr.com/8f052f0f3d69d850bcc8408a6593d6b3/tumblr_noh1py87PU1qhy6c9o1_r1_500.gif",
-"http://78.media.tumblr.com/fe950f8fb8447772004aaabdb7f0ec98/tumblr_nnpi3a8HZv1qhy6c9o1_r1_500.gif",
-"http://78.media.tumblr.com/f6626d8e97b785408aec4a4522bd0859/tumblr_nfgvj6HovJ1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/9127dd3d21a564a0ac99aa1afe122821/tumblr_n61y67vsve1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/tumblr_lo3t4lbp7i1qhy6c9o1_400.gif",
-"http://78.media.tumblr.com/25f09ad6ca2fc491243edc9de9d8a5fd/tumblr_mr8g3qfpr91qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/0ee77d7f0c4209c7fd27ddc0b7ad6210/tumblr_mpuyyl9Gc61qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/0e45d594824869289b50a27f9608a53e/tumblr_mo213hbkqR1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/28de0c1b3677f6b68f738396c3ff8d3e/tumblr_mgw60z8RfW1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/29ce263b592fcc6960c756d1f18d2c98/tumblr_mes5dirRzv1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/tumblr_mdv6yo02p01qhy6c9o3_250.gif",
-"http://78.media.tumblr.com/tumblr_mdm6qooSbx1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/tumblr_lpzuvgnDls1qhy6c9o1_400.gif",
-"http://78.media.tumblr.com/tumblr_lqz4lrnVSZ1qhy6c9o1_r1_400.gif",
-"http://78.media.tumblr.com/tumblr_m1bfxm5lOz1qlhvfoo1_400.gif",
-"http://78.media.tumblr.com/tumblr_mbfumzh9Ng1qhy6c9o1_500.gif",
-"http://78.media.tumblr.com/tumblr_m1dbwupilq1qhy6c9o2_500.gif",
-"http://78.media.tumblr.com/tumblr_llxxy2spSu1qhy6c9o1_400.gif",
-"http://78.media.tumblr.com/tumblr_mdv6yo02p01qhy6c9o2_250.gif",
-]
-
-var index = 0;
-
-var image = document.getElementById("main");
-image.src = pusheens[0];
-function show_image(direction)
-{
-  if (direction == "left")
-  {
-    index--;
-  }
-  else
-  {
-    index++;
-    index %= pusheens.length;
-  }
-  
-  if (index < 0)
-  {
-    index = pusheens.length - 1;
-  }
-  
-  image.src = pusheens[index];
-}
-</script>
-
-
 <div class="box">
 		<p>Cat worship is not exclusive to the internet. <br><br>Before the dawn of Tumblr, LoLcat, and dank cat memes, the following cultures and religions celebrated cats:	</p>
 		<ul><li><br>Ancient Greeks<br>
-		Ancient Nubians<br>
+		Thai People<br>
 		Ancient Egyptians<br>
 		Ancient Assyrians<br>
-		Indians<br>
-		Islamic peoples<br>
-		Christians<br>
+		Norwegians<br>
+		Islam<br>
+		Christianity<br>
 		Chinese<br>
 		Scandainavians<br>
-		Olmecs<br>
+		Egyptians<br>
 		Mayans<br>
 		Brazilians<br><br>
 		These are 12 groups that had either a mythological, spiritual or religious connection with cats. 
@@ -111,7 +65,6 @@ function show_image(direction)
 		</ul>
 </div>
 
-
-
+<script type="text/javascript" src="./main.js"></script>
 </body>
 </html>

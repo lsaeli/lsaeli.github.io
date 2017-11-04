@@ -1,5 +1,63 @@
-p {
-	padding-right: 30%;
-		padding-left: 30%;
-			padding-top: 10%;
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+}
+
+#display {
+	color: white;
+	font-size: 2.9em;
+	top: 10px;
+  border-bottom: thin solid;
+  padding-bottom: 20px;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#date {
+  color: white;
+  font-size: 1.3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+
+#content {
+  height: 45em;
+} p {
+  max-width: 30em;
+  color: white;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+
+.container {
+  padding-top: 6em;
+  text-align: center;
+}
+
+#date {
+  color: white;
+}
+
+@media screen 
+ and (max-device-width: 800px) 
+  and (max-device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    p {
+      font-size: 1em;
+    }
 }

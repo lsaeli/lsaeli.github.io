@@ -8,16 +8,22 @@ img#main {
 	padding-top: 3%;
 }
 
+#gen {
+/*	margin-top: 8%;*/
+	float: right;
+	margin-right: 24.5%;
+/*	margin-top: 5%;*/
 
-#image-format {
-background-image: url('http://78.media.tumblr.com/e988477ba6c7bc54753e2d90bd0c562e/tumblr_oxbgebN7Wh1qhy6c9o1_500.gif');
-background-repeat: no-repeat;
-text-align: center;
-width: 500px;
-height: 630px;
-margin-left: 35%;
 }
 
+#fact {
+	padding-top: 9.1%;
+	float: right;
+    /* padding-left: 70%; */
+    padding-left: 70%;
+    /* padding-top: 9%; */
+    padding-right: 7%;
+}
 
 h4:hover {
 color: thistle;
@@ -28,7 +34,7 @@ h4{
 letter-spacing: .1em;
 transition: all ease 0.3s;
 font-family: 'Rancho', cursive;
-padding-left: 24.5%;
+padding-left: 23.3%;
 font-size: 35px;
 color: saddlebrown
 }
@@ -38,18 +44,30 @@ color: saddlebrown
   transition: all ease 0.3s;
 }
 
+#slideshow {
+font-family: 'Varela Round', sans-serif;
+float: right;
+padding-bottom: 4%;
+padding-left: 21.8%;
+padding-right: 33%;
+clear: both;	
+overflow: hidden;
+display: inline;
+position: absolute;
+}
+
 .header:hover:after{
   content: attr(data-hover);
   font-size: 20px;
   transition:.5s; 
-  padding-left: 27.5%;
+  padding-left: 24.15%;
   padding-bottom: 8%;
   font-family: 'Rancho', cursive;
 }
 
 p {
 font-family: 'Varela Round', sans-serif;
-float: right;
+float: center;
 padding-top: .5%;
 padding-left: 2%;
 padding-right: 33%;
@@ -61,8 +79,8 @@ position: absolute;
 
 li {
 font-family: 'Varela Round', sans-serif;
-float: right;
-padding-top: 15%;
+float: center;
+padding-top: 10.4%;
 padding-right: 33%;
 padding-left: 2%;
 clear: both;	
