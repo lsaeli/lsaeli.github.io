@@ -6,23 +6,22 @@ img#main {
 	padding-left: 12%;
 	float: left;
 	padding-top: 3%;
+	  width:540px; /* you can use % */
+	      height: auto;
 }
+
 
 #gen {
-/*	margin-top: 8%;*/
 	float: right;
-	margin-right: 24.5%;
-/*	margin-top: 5%;*/
-
+	margin-right: 23.5%;
+    margin-top: 7%;
 }
 
-#fact {
-	padding-top: 9.1%;
-	float: right;
-    /* padding-left: 70%; */
-    padding-left: 70%;
-    /* padding-top: 9%; */
-    padding-right: 7%;
+p#fact {
+  position: absolute;
+  top: 22.3%;
+  left: 69.8%;
+  width: 350px;
 }
 
 h4:hover {
@@ -34,7 +33,7 @@ h4{
 letter-spacing: .1em;
 transition: all ease 0.3s;
 font-family: 'Rancho', cursive;
-padding-left: 23.3%;
+padding-left: 24.7%;
 font-size: 35px;
 color: saddlebrown
 }
@@ -48,8 +47,8 @@ color: saddlebrown
 font-family: 'Varela Round', sans-serif;
 float: right;
 padding-bottom: 4%;
-padding-left: 21.8%;
-padding-right: 33%;
+padding-left: 12.8%;
+padding-right: 32.1%;
 clear: both;	
 overflow: hidden;
 display: inline;
@@ -60,8 +59,8 @@ position: absolute;
   content: attr(data-hover);
   font-size: 20px;
   transition:.5s; 
-  padding-left: 24.15%;
-  padding-bottom: 8%;
+  padding-left: 25.67%;
+  padding-bottom: 2%;
   font-family: 'Rancho', cursive;
 }
 
@@ -80,8 +79,8 @@ position: absolute;
 li {
 font-family: 'Varela Round', sans-serif;
 float: center;
-padding-top: 10.4%;
-padding-right: 33%;
+padding-top: 12.4%;
+padding-right: 31.1%;
 padding-left: 2%;
 clear: both;	
 overflow: hidden;
