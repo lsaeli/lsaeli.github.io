@@ -1,6 +1,6 @@
 var cats =
 ["http://78.media.tumblr.com/e988477ba6c7bc54753e2d90bd0c562e/tumblr_oxbgebN7Wh1qhy6c9o1_500.gif",
-"https://pbs.twimg.com/profile_images/848471660860538880/pevXVsIp.jpg",
+"https://sociorocketnewsen.files.wordpress.com/2015/09/7.png",
 "https://i.ytimg.com/vi/VuUcS9qesBg/maxresdefault.jpg", 
 "https://goodlucksymbols.com/wp-content/uploads/2014/06/Maneki-Neko.png",
 "http://s3.amazonaws.com/99whiskers/wp-content/uploads/2016/11/15181027/Grumpy-Cat1.jpg",

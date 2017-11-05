@@ -59,7 +59,7 @@ position: absolute;
   content: attr(data-hover);
   font-size: 20px;
   transition:.5s; 
-  padding-left: 26%;
+  padding-left: 25.99%;
   padding-bottom: 2%;
   font-family: 'Rancho', cursive;
 }
