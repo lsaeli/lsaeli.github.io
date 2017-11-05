@@ -33,7 +33,7 @@ h4{
 letter-spacing: .1em;
 transition: all ease 0.3s;
 font-family: 'Rancho', cursive;
-padding-left: 24.7%;
+padding-left: 25.2%;
 font-size: 35px;
 color: saddlebrown
 }
@@ -47,7 +47,7 @@ color: saddlebrown
 font-family: 'Varela Round', sans-serif;
 float: right;
 padding-bottom: 4%;
-padding-left: 12.8%;
+padding-left: 13.2%;
 padding-right: 32.1%;
 clear: both;	
 overflow: hidden;
@@ -59,7 +59,7 @@ position: absolute;
   content: attr(data-hover);
   font-size: 20px;
   transition:.5s; 
-  padding-left: 25.67%;
+  padding-left: 26%;
   padding-bottom: 2%;
   font-family: 'Rancho', cursive;
 }
