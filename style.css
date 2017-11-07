@@ -43,6 +43,10 @@ font-family: 'Vidaloka', 'georgia', monospace;
 }
 
 
+.right {
+  right: 40px;
+}
+
 
 .textWithBlurredBg{
     height: 75%;
