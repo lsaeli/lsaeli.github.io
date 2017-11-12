@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+
+ <meta name="view" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:black,regular" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="main.js"></script>
+
+
+
+<head>
+<h1 id="trump">
+Trump won...
+
+  <script type="text/javascript">
+  	alert("Trump won.")
+	function init(){
+		getReply();
+		//and other scripts that execute onload event
+	}
+	function getReply(){
+		var ReplyForm=document.frm;
+		var Reply=prompt("How do you feel?","");
+		if(Reply != null && Reply!=""){
+			alert("The world shifted slightly.");
+			ReplyForm.fReply.value=Reply;
+		}else{
+			alert("Are there truly no words?");
+		}
+	}
+  </script>
+ </HEAD>
+ <BODY onload="init()">
+	</form>
+
+</h1>
+</body>
+</head>
+
+</html>

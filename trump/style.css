@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&effect=anaglyph);
+
+.twitter-timeline {
+	margin-left: 3%;
+		margin-top: 5%;
+}
+
+.vote {
+  text-align: left;
+  color:#fff;
+  padding-left: 2%;
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+}
+
+
+h2 {
+	font-family: 'roboto', sans-serif;
+	  color: white;
+	  font-size: 50px;
+	  padding-left: 5%;
+}
+
+p {
+  font-family: 'roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+   text-align: left;
+   float: right;   
+   padding-top: 10px;
+   padding-right: 120px;
+}
+
+body {
+	background-color: black;
+}
+
+ul {
+   list-style:none;
+   font-size: 30px;
+    line-height: 1.8;
+}
+
+
+li#blue a:hover {
+    transition: all ease .5s;
+  background: -webkit-linear-gradient(#4286f4, #175ac6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li#red a:hover {
+    transition: all ease .5s;
+  background: -webkit-linear-gradient(#ff2d2d, #c61717);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li#yellow a:hover {
+    transition: all ease .5s;
+  background: -webkit-linear-gradient(#eee, #ffbd3f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li#green a:hover {
+    transition: all ease .5s;
+  background: -webkit-linear-gradient(#31e23d, #00960a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li#neutral a:hover {
+    transition: all ease .5s;
+  background: -webkit-linear-gradient(#ff2828, #4286f4);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+* { color:#fff; text-decoration: none;
+font-family: 'roboto', sans-serif;}
+/*
+    font-family: 'exo', light, sans-serif;*/
+
+iframe {
+    border: none;
+    height: 600px;
+    width: 790px;
+    margin-left: 5%;
+    margin-top: 2%;
+     pointer-events: none;
+}
+
+
+
+#trump {
+  font-size: 30px;
+  padding-left: 30%;
+  padding-top: 30px;
+  font-family: 'roboto', sans-serif;
+}

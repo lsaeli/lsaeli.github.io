@@ -68,14 +68,14 @@ function show_image(direction)
 
 function genFact() {
   var randNum = Math.floor(Math.random() * 11) + 1;
-  document.getElementById('fact').innerHTML = quotes[randNum];
+  document.getElementById('fact').innerHTML = facts[randNum];
 }
 fact
-//quote array
-var quotes = ["Blank", 
+//fact array
+var facts = ["Blank", 
 "Norway<br><br>The Norwegian Forest Cat plays an important role in Norse Mythology.\ The main (folk tale) goes back to norse mythology, Freya rode around in her sled that was pulled by two large white cats that were so huge that Thor couldn't pick them up and the Norwegian people claim that those were Norwegian Forest Cats.",
  "Thailand<br><br>The Tamra Maew or Cat Book of Poems (circa 1350-1767) describes 17 different varieties of cats.\ Cats were used as part of a ceremony involving a newborn baby.\ There are ceremonies when a new baby is accepted into the household. There is a little ceremony and they use a gourd, a rock and a cat and the idea is being they want their child to grow up wise as the cat, as hard as the stone and as cool (level headed) as the gourd. It would be the equivalent of christening.",
-  "Japan<br><br>There is Japanese folklore belief that cats can be the possessors of other peoples souls.\In Japanese folklore a cat born with a special black mark on its back is a cat that holds the spirit of ones ancestors. The mark is supposed resemble a women's Kimono and is called a Kimono cat. These cats were often taken to temples for protection.",
+  "Japan<br><br>There is Japanese folklore belief that cats can be the possessors of other peoples souls.\ In Japanese folklore a cat born with a special black mark on its back is a cat that holds the spirit of ones ancestors. The mark is supposed resemble a women's Kimono and is called a Kimono cat. These cats were often taken to temples for protection.",
    "Egypt<br><br>We know from the (Greek Historian) Herodotus that people were very sensitive about their cats, he reports that a Roman soldier that killed a cat was stoned to death by the angry Egyptians and there are records that families would shave off their eyebrows in morning, that was done when a cat died in some households. Cats were mummified when they died so that they would be able to accompany their owners in the afterlife. If your cat had died you had it mummified, and you took it there to be buried in the sacred temple. Many animals were worshipped in ancient Egypt, but no other animal was so universally cherished as the cat.",
     "Christianity (Church of Narzarene)<br><br>In “The Gospel of the Holy Twelve” there are two stories concerning Jesus and cats in Lection 24 and 34. <br><br>Jesus saw a crowd of idlers tormenting a cat. He commanded them to desist, but they reviled him. Then he made a whip of knotted cords and drove them away, saying they made the Earth into the lowest hell with their deeds of violence and cruelty.\"<br><small>-The Gospel of the Holy Twelve – Lection 24</em></small><br><br>\"When Jesus entered a village, he saw a young cat who was hungry and cried unto him, and he took her in, and entered into the village where gave the cat food and water. Jesus gave her unto one of his disciples, Lorenza, and she took care of her.  People acknowledged this and said he cared for all creatures. These are your fellow creatures of the great Household of God, yea, they are your brethren and sisters, having the same breath of life in the Eternal.\"<br><small>-The Gospel of the Holy Twelve, Lection 34<small>",
      "Celtic Mythology<br><br>The Welsh goddess of wisdom, Ceridwen, was the mother of the famous bard Taliesin. Her attendants were white cats who carried out her orders worldwide.",
